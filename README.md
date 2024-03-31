@@ -11,6 +11,7 @@ Before you start, make sure you have the following installed:
 - Node.js (https://nodejs.org)
 - MongoDB
 - MongoDB Compass (To check you database entry more user friendly)
+- Create a folder name "upload" inside the project after Cloning it in your local repo.
 
 ## Installation
 
