@@ -9,12 +9,35 @@
     body{
       text-align: center;
       background-color: rgb(25, 59, 59);
+      color: aliceblue;
+    }
+
+    a:hover{
+      color: aliceblue;
+    }
+
+    .nav {
+      width: 90%; /* Adjust width as needed */
+      height: 80px; /* Adjust height as needed */
+      background-color: rgb(17, 32, 35); /* Background color */
+      border-radius: 60px; /* Rounded corners */
+      box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.9); /* Box shadow */
+      margin: 0 auto; /* Center horizontally */
+      display: flex; /* Center vertically */
+      flex-direction: column; /* Stack items vertically */
+      justify-content: center; /* Center horizontally within the div */
+      align-items: center; /* Center vertically within the div */
+      margin-bottom: 20px; /* Add margin to each box */
+    }
+
+    .len:hover{
+      box-shadow: 8px 20px 40px rgba(185, 99, 99, 0.9); /* Box shadow */
     }
 
     .len {
-      width: 600px; /* Adjust width as needed */
-      height: 300px; /* Adjust height as needed */
-      background-color: #f55; /* Background color */
+      width: 1000px; /* Adjust width as needed */
+      min-height: 100px; /* Adjust height as needed */
+      background-color: rgb(158, 121, 194); /* Background color */
       border-radius: 60px; /* Rounded corners */
       box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.9); /* Box shadow */
       margin: 0 auto; /* Center horizontally */
@@ -29,10 +52,11 @@
 
   <body>
     <header>
-      <nav>
+      <nav class='nav'>
         <ul>
           <a href="/">Create New Blog</a> <br/>
-          <a href="#">Blog Page</a>
+          <a href="/users">Blog Page</a> <br />
+          <a href="/register">Upload Profile Picture</a>
         </ul>
       </nav>
     </header>
